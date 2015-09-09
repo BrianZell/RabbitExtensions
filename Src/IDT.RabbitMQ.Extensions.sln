@@ -1,0 +1,125 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDT.RabbitMQ.Extensions", "IDT.RabbitMQ.Extensions\IDT.RabbitMQ.Extensions.csproj", "{010960AA-7F0A-4D10-A03C-101EB6DF3430}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{23B7DA4D-0183-46B7-BE92-5B0AFF9C6645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDT.RabbitMQ.Extensions.Tests", "IDT.RabbitMQ.Extensions.Tests\IDT.RabbitMQ.Extensions.Tests.csproj", "{B01777FA-8282-4A36-AE23-21577FE4F3C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDT.RabbitMQExtensions.Tests.Integration", "IDT.RabbitMQExtensions.Tests.Integration\IDT.RabbitMQExtensions.Tests.Integration.csproj", "{59EBEEEC-2D7E-48A6-99CA-FA7B38C9A1C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDT.VersionedXmlSerialization", "IDT.VersionedXmlSerialization\IDT.VersionedXmlSerialization.csproj", "{D2DD0414-262F-4D7D-A27E-665B3BE62FEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDT.VersionedXmlSerialization.Tests", "IDT.VersionedXmlSerialization.Tests\IDT.VersionedXmlSerialization.Tests.csproj", "{371DF109-155A-4726-A5C1-F24F4EE37D73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPublisher", "TestPublisher\TestPublisher.csproj", "{B6890EC7-A706-4952-8470-D8F4017FCA01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSubscriber", "TestSubscriber\TestSubscriber.csproj", "{BF5DBE9A-9096-4A3C-B3C6-62D02A13D520}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FunctionalTests", "FunctionalTests", "{59ACB8CE-CF84-4492-A71D-C82CBA294325}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{751C67FA-C44D-42DB-A6A1-A56ACC0C019C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDT.RabbitMQ.ServiceClient", "IDT.RabbitMQ.ServiceClient\IDT.RabbitMQ.ServiceClient.csproj", "{83979139-80F2-4A1A-A182-ADCEEADD70D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDT.ManualShovel", "IDT.ManualShovel\IDT.ManualShovel.csproj", "{A1686A4B-E110-42B6-93B1-CF222CCDCDDC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs2012prod.idtdna.com:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = IDT.RabbitMQ.Extensions.Tests\\IDT.RabbitMQ.Extensions.Tests.csproj
+		SccProjectTopLevelParentUniqueName1 = IDT.RabbitMQ.Extensions.sln
+		SccProjectName1 = IDT.RabbitMQ.Extensions.Tests
+		SccLocalPath1 = IDT.RabbitMQ.Extensions.Tests
+		SccProjectUniqueName2 = IDT.RabbitMQ.Extensions\\IDT.RabbitMQ.Extensions.csproj
+		SccProjectName2 = IDT.RabbitMQ.Extensions
+		SccLocalPath2 = IDT.RabbitMQ.Extensions
+		SccProjectUniqueName3 = IDT.RabbitMQExtensions.Tests.Integration\\IDT.RabbitMQExtensions.Tests.Integration.csproj
+		SccProjectTopLevelParentUniqueName3 = IDT.RabbitMQ.Extensions.sln
+		SccProjectName3 = IDT.RabbitMQExtensions.Tests.Integration
+		SccLocalPath3 = IDT.RabbitMQExtensions.Tests.Integration
+		SccProjectUniqueName4 = IDT.VersionedXmlSerialization\\IDT.VersionedXmlSerialization.csproj
+		SccProjectName4 = IDT.VersionedXmlSerialization
+		SccLocalPath4 = IDT.VersionedXmlSerialization
+		SccProjectUniqueName5 = IDT.VersionedXmlSerialization.Tests\\IDT.VersionedXmlSerialization.Tests.csproj
+		SccProjectTopLevelParentUniqueName5 = IDT.RabbitMQ.Extensions.sln
+		SccProjectName5 = IDT.VersionedXmlSerialization.Tests
+		SccLocalPath5 = IDT.VersionedXmlSerialization.Tests
+		SccProjectUniqueName6 = TestPublisher\\TestPublisher.csproj
+		SccProjectTopLevelParentUniqueName6 = IDT.RabbitMQ.Extensions.sln
+		SccProjectName6 = TestPublisher
+		SccLocalPath6 = TestPublisher
+		SccProjectUniqueName7 = TestSubscriber\\TestSubscriber.csproj
+		SccProjectTopLevelParentUniqueName7 = IDT.RabbitMQ.Extensions.sln
+		SccProjectName7 = TestSubscriber
+		SccLocalPath7 = TestSubscriber
+		SccProjectUniqueName8 = IDT.RabbitMQ.ServiceClient\\IDT.RabbitMQ.ServiceClient.csproj
+		SccProjectName8 = IDT.RabbitMQ.ServiceClient
+		SccLocalPath8 = IDT.RabbitMQ.ServiceClient
+		SccProjectUniqueName9 = IDT.ManualShovel\\IDT.ManualShovel.csproj
+		SccProjectName9 = IDT.ManualShovel
+		SccLocalPath9 = IDT.ManualShovel
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{010960AA-7F0A-4D10-A03C-101EB6DF3430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010960AA-7F0A-4D10-A03C-101EB6DF3430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010960AA-7F0A-4D10-A03C-101EB6DF3430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010960AA-7F0A-4D10-A03C-101EB6DF3430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B01777FA-8282-4A36-AE23-21577FE4F3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01777FA-8282-4A36-AE23-21577FE4F3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01777FA-8282-4A36-AE23-21577FE4F3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01777FA-8282-4A36-AE23-21577FE4F3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59EBEEEC-2D7E-48A6-99CA-FA7B38C9A1C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EBEEEC-2D7E-48A6-99CA-FA7B38C9A1C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EBEEEC-2D7E-48A6-99CA-FA7B38C9A1C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EBEEEC-2D7E-48A6-99CA-FA7B38C9A1C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2DD0414-262F-4D7D-A27E-665B3BE62FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DD0414-262F-4D7D-A27E-665B3BE62FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DD0414-262F-4D7D-A27E-665B3BE62FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DD0414-262F-4D7D-A27E-665B3BE62FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371DF109-155A-4726-A5C1-F24F4EE37D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371DF109-155A-4726-A5C1-F24F4EE37D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371DF109-155A-4726-A5C1-F24F4EE37D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371DF109-155A-4726-A5C1-F24F4EE37D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6890EC7-A706-4952-8470-D8F4017FCA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6890EC7-A706-4952-8470-D8F4017FCA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6890EC7-A706-4952-8470-D8F4017FCA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6890EC7-A706-4952-8470-D8F4017FCA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5DBE9A-9096-4A3C-B3C6-62D02A13D520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5DBE9A-9096-4A3C-B3C6-62D02A13D520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5DBE9A-9096-4A3C-B3C6-62D02A13D520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5DBE9A-9096-4A3C-B3C6-62D02A13D520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83979139-80F2-4A1A-A182-ADCEEADD70D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83979139-80F2-4A1A-A182-ADCEEADD70D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83979139-80F2-4A1A-A182-ADCEEADD70D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83979139-80F2-4A1A-A182-ADCEEADD70D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1686A4B-E110-42B6-93B1-CF222CCDCDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1686A4B-E110-42B6-93B1-CF222CCDCDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1686A4B-E110-42B6-93B1-CF222CCDCDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1686A4B-E110-42B6-93B1-CF222CCDCDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B01777FA-8282-4A36-AE23-21577FE4F3C0} = {23B7DA4D-0183-46B7-BE92-5B0AFF9C6645}
+		{59EBEEEC-2D7E-48A6-99CA-FA7B38C9A1C2} = {23B7DA4D-0183-46B7-BE92-5B0AFF9C6645}
+		{371DF109-155A-4726-A5C1-F24F4EE37D73} = {23B7DA4D-0183-46B7-BE92-5B0AFF9C6645}
+		{B6890EC7-A706-4952-8470-D8F4017FCA01} = {59ACB8CE-CF84-4492-A71D-C82CBA294325}
+		{BF5DBE9A-9096-4A3C-B3C6-62D02A13D520} = {59ACB8CE-CF84-4492-A71D-C82CBA294325}
+	EndGlobalSection
+EndGlobal
